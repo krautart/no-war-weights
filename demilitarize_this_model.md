@@ -71,7 +71,7 @@ def tripwire(prompt: str) -> str:
 ## 7 Further Reading
 * **Open RAIL spec** → <https://raillicense.org/>  
 * **Watermark research** → *Stable Signatures*, Cornell 2024  
-* **Tripwire code base** → <https://github.com/no-war-weights/tripwire>
+* **Tripwire code base** → <https://github.com/krautart/no-war-weights/tree/main/tripwire>
 
 ---
 
