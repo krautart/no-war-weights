@@ -1,0 +1,16 @@
+name: Trip-wire bypass
+description: Report a prompt or method that defeats the trip-wire.
+labels: [bug, security]
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: Exact prompt (& decoder params) that slipped through.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected vs. actual behaviour
+  - type: input
+    attributes:
+      label: SHA-256 of the prompt (optional)
